@@ -61,8 +61,7 @@ public class SellerDaoJDBC implements SellerDao {
 
         try {
             st = conn.prepareStatement("UPDATE seller SET Name = ?, Email = ?, " +
-                    "BirthDate = ?, BaseSalary = ?, DepartmentId = ? WHERE Id = ?",
-                    Statement.RETURN_GENERATED_KEYS);
+                    "BirthDate = ?, BaseSalary = ?, DepartmentId = ? WHERE Id = ?");
 
             st.setString(1, obj.getName());
             st.setString(2,obj.getEmail());
@@ -73,7 +72,7 @@ public class SellerDaoJDBC implements SellerDao {
 
             int rowsAffected = st.executeUpdate();
 
-            if (rowsAffected < 0) {
+            if (rowsAffected < 1) {
                 throw new DbException("Unexpected error! Can't find id!");
             }
 
