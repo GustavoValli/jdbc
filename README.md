@@ -32,6 +32,6 @@
   Como testar o projeto?
 </h1>
 <p>
-  Dê um clone no projeto e abra no Intellij e dê o "run" na classe main.
+  Dê um clone no projeto e abra no Intellij e dê o "run" na classe main. Não esqueça de configurar o usuário e senha do MySQL no arquivo db.properties.
 </p>
 
