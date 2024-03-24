@@ -1,3 +1,6 @@
+<h1>
+ Projeto JDBC
+</h1>
 <p>
  Projeto simples que simula uma conexão do Java com o banco de dado MySQL utilizando da bibloteca "MySQL Conector". 
   No projeto, feito através de aulas de um curso na Udemy, foram utilizados conceitos de:
@@ -25,4 +28,10 @@
     Bibliotecas externas.
   </li>
 </ul>
+<h1>
+  Como testar o projeto?
+</h1>
+<p>
+  Dê um clone no projeto e abra no Intellij e dê o "run" na classe main.
+</p>
 
